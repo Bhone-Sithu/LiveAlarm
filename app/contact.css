@@ -1,0 +1,49 @@
+.triangle-shape {
+    position: absolute;
+    background-color: #FCFF68; /* Adjust color and opacity as needed */
+    transform: rotate(45deg); /* Rotate to make diamond shapes */
+    opacity: 0.3;
+    scale:3.5;
+    z-index: 1;
+}
+
+/* Specific positions and sizes for each triangle */
+#rect-1 {
+    width: 200px;
+    height: 200px;
+    top: 10%;
+    left: 15%;
+    clip-path: polygon(0% 100%, 100% 100%, 100% 0%);
+}
+
+#rect-2 {
+    width: 250px;
+    height: 250px;
+    top: 50%;
+    left: 50%;
+    clip-path: polygon(0% 0%, 50% 100%, 100% 0%);
+}
+
+#rect-3 {
+    width: 300px;
+    height: 300px;
+    bottom: 20%;
+    right: 20%;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+
+#rect-4 {
+    width: 150px;
+    height: 150px;
+    bottom: 5%;
+    left: 5%;
+    clip-path: polygon(100% 0%, 0% 0%, 50% 100%);
+}
+
+#rect-5 {
+    width: 180px;
+    height: 180px;
+    top: 30%;
+    right: 10%;
+    clip-path: polygon(0% 50%, 100% 100%, 100% 0%);
+}
