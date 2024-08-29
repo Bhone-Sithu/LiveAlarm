@@ -25,10 +25,10 @@ export default function NavBar() {
             </div>
 
             <div id={"nav-links"} className={`flex justify-between w-6/12  text-xl ${navBackground ? 'text-black ' : 'text-gray-200'}`}>
-                <Link to="#" href={"#"}>Home</Link>
-                <Link to="#" href={"#"}>About</Link>
-                <Link to="#" href={"#"}>Services</Link>
-                <Link to="#" href={"#"}>Contact</Link>
+                <Link  href={"#"}>Home</Link>
+                <Link  href={"#"}>About</Link>
+                <Link href={"#"}>Services</Link>
+                <Link  href={"#"}>Contact</Link>
             </div>
         </nav>
     );
