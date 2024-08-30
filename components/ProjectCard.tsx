@@ -7,7 +7,7 @@ export default function ProjectCard({ owner, photo, year, title, system, locatio
         <div
             onMouseEnter={() => setHover(true)}
             onMouseLeave={() => setHover(false)}
-            className={`relative w-full md:h-full bg-cover rounded-md overflow-hidden hover:cursor-pointer transition-transform duration-700 hover:scale-110 hover:z-50 hover:shadow-2xl`}
+            className={`relative w-full md:h-full bg-cover rounded-md overflow-hidden hover:cursor-pointer transition-transform duration-700 hover:scale-110 hover:z-50 hover:shadow-2xl `}
             style={{ backgroundImage: `url(${photo})` }}
         >
             {/* Title Overlay */}
