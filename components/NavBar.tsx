@@ -46,19 +46,20 @@ export default function NavBar() {
             {/* Mobile Menu */}
             <div
                 className={`fixed inset-0 flex flex-col items-center justify-center bg-white text-black transition-transform transform duration-700 ${isMobileMenuOpen ? 'translate-x-0' : 'translate-x-full'} md:hidden`}>
-                <Link href={"#"} onClick={toggleMobileMenu} className="p-4">Home</Link>
-                <Link href={"#"} onClick={toggleMobileMenu} className="p-4">About</Link>
-                <Link href={"#"} onClick={toggleMobileMenu} className="p-4">Services</Link>
-                <Link href={"#"} onClick={toggleMobileMenu} className="p-4">Contact</Link>
+                <Link href={"#about"} onClick={toggleMobileMenu} className="p-4">About</Link>
+                <Link href={"#services"} onClick={toggleMobileMenu} className="p-4">Services</Link>
+                <Link href={"#projects"} onClick={toggleMobileMenu} className="p-4">Projects</Link>
+                <Link href={"#contact"} onClick={toggleMobileMenu} className="p-4">Contact</Link>
             </div>
 
             {/* Desktop Menu */}
             <div id={"nav-links"}
                  className={`hidden md:flex justify-between w-6/12 text-xl ${navBackground ? 'text-black ' : 'text-gray-200'}`}>
-                <Link href={"#"}>Home</Link>
-                <Link href={"#"}>About</Link>
-                <Link href={"#"}>Services</Link>
-                <Link href={"#"}>Contact</Link>
+
+                <Link href={"#about"}>About</Link>
+                <Link href={"#services"}>Services</Link>
+                <Link href={"#projects"}>Projects</Link>
+                <Link href={"#contact"}>Contact</Link>
             </div>
             <style jsx>{`
                 #cross{

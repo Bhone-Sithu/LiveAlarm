@@ -2,7 +2,7 @@ import Title from "@/components/Title";
 import '../contact.css'
 export default function Contact() {
     return (
-        <div className={"w-full pb-20 pt-10 bg-green-200 my-10 relative overflow-hidden"}>
+        <div id={"contact"} className={"w-full pb-20 pt-10 bg-green-200 my-10 relative overflow-hidden"}>
             <div id="rect-1" className="triangle-shape"></div>
             <div id="rect-2" className="triangle-shape"></div>
             <div id="rect-3" className="triangle-shape"></div>

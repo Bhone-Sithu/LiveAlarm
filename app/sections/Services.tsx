@@ -32,7 +32,7 @@ export default function Services() {
         }
     ]
     return (
-        <div className={"relative h-fit"}>
+        <div id={"services"} className={"relative h-fit"}>
             <img src={"/wave.svg"} alt={"Wave"} className={"z-30"}/>
             <h2 className="absolute mx-auto w-full md:top-48 text-3xl font-medium mt-10 text-center z-20">
                 Our Services

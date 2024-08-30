@@ -12,7 +12,7 @@ export default function Home() {
   return (
       <>
 
-    <main className="min-h-screen  z-10 relative">
+    <main className="min-h-screen  z-10 relative" id={"landing"}>
       <NavBar/>
 
         <Landing/>
@@ -21,10 +21,12 @@ export default function Home() {
         <Title title={"About Us"}/>
         <About/>
         <Services/>
-        <Title title={"Projects"}/>
-        <Projects/>
+        <div id={"projects"}></div>
+        <Title  title={"Projects"} />
+        <Projects />
         <Contact/>
-        <p className={"text-center font-light font-xs"}>© 2024 LIVE ALARM ENGINEERING COMPANY LIMITED All Rights Reserved</p>
+        <p className={"text-center font-light font-xs"}>© 2024 LIVE ALARM ENGINEERING COMPANY LIMITED All Rights
+          Reserved</p>
       </div>
     </main>
       </>
