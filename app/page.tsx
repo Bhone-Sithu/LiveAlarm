@@ -5,7 +5,6 @@ import About from "@/app/sections/About";
 import Title from "@/components/Title";
 import Services from "@/app/sections/Services";
 import Projects from "@/app/sections/Projects";
-import ProjectsSlider from "@/app/sections/ProjectsSlider";
 import Contact from "@/app/sections/Contact";
 
 export default function Home() {
