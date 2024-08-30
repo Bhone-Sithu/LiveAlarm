@@ -11,8 +11,7 @@ export default function Contact() {
             <Title title="Contact"/>
             <br/>
             <br/>
-            <br/>
-            <div className="flex justify-around items-center relative z-50">
+            <div className="flex md:justify-around items-center relative z-50 flex-col gap-10 md:flex-row">
                 <div>
                     <div id={"logo"} className={"flex items-center justify-center"}>
                         <img src="/assets/LiveAlarmLogo.svg" alt="Logo" width={90} height={90}/>
@@ -25,10 +24,10 @@ export default function Contact() {
                        className={"ml-3 text-xl"}>Fire Protection System
                     </p>
                 </div>
-                <div className="text-xl">
+                <div className="text-xl text-center md:text-left">
                     <p>0931 222 922</p>
                     <p>0978 6394 991</p>
-                    <p>livealarm.info@gmail.com</p>
+                    <p>info@live-alarm.com</p>
                     <br/>
                     <p>No 342, Thukhamain Street, Ward(20), <br/> Shwe Paukkan Township, Yangon</p>
                 </div>

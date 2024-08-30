@@ -34,10 +34,10 @@ export default function Services() {
     return (
         <div className={"relative h-fit"}>
             <img src={"/wave.svg"} alt={"Wave"} className={"z-30"}/>
-            <h2 className="absolute mx-auto w-full top-48 text-3xl font-medium text-center mt-10 z-20">
+            <h2 className="absolute mx-auto w-full md:top-48 text-3xl font-medium mt-10 text-center z-20">
                 Our Services
             </h2>
-          <div className={" w-full h-fit bg-gradient-to-b from-[#D4FFD8] via-[#FFFA88] via-70% to-white z-0"}>
+          <div className={" w-full h-fit bg-gradient-to-b from-[#D4FFD8] via-[#FFFA88] via-70% to-white z-0 md:pt-20 pt-32"}>
               <div className={"flex flex-col gap-20"}>
                   {servicesInfo.map((service,index) => (
                       <div key={index} > <ServiceCard description={service.description} photo={service.photo} index={index} title={service.title} /></div>
