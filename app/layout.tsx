@@ -44,7 +44,7 @@ export const metadata: Metadata = {
     },
     manifest: 'https://live-alarm.com/manifest.json',
     twitter: {
-        card: "Live Alarm Engineering",
+        card: "summary_large_image",
         site: "@LiveAlarmEng",
         creator: "@LiveAlarmEng",
         title: "Live Alarm Engineering | Myanmar's Premier Fire Protection System Provider",
@@ -53,7 +53,6 @@ export const metadata: Metadata = {
     },
     verification: {
         google: "google-site-verification-code",
-        bing: "bing-site-verification-code",
     },
     appleWebApp: {
         capable: true,
