@@ -149,9 +149,9 @@ export default function Projects() {
 
     return (
         <>
-            <div  className={"w-full md:h-screen h-[600px] my-20 px-10  relative "}>
+            <div  className={"w-full md:h-screen h-[600px] my-20 md:px-10 px-1  relative "}>
                 <div
-                    className="grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 grid-rows-2 gap-3 w-full h-full transition-transform duration-500 ease-out"
+                    className="grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 grid-rows-2 gap-1 w-full h-full transition-transform duration-500 ease-out"
                     // style={{
                     //     transform: `translateX(-${currentIndex * 100}%)`
                     // }}

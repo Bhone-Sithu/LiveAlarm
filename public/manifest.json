@@ -1,0 +1,55 @@
+
+{
+  "name": "Live Alarm Engineering",
+  "short_name": "LiveAlarm",
+  "description": "Myanmar's Best Fire Protection System Provider with International Standards",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#D4FFD8",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "https://www.live-alarm.com/assets/LiveAlarmLogo.svg",
+      "sizes": "72x72",
+      "type": "image/svg"
+    },
+    {
+      "src": "https://www.live-alarm.com/assets/LiveAlarmLogo.svg",
+      "sizes": "96x96",
+      "type": "image/svg"
+    },
+    {
+      "src": "https://www.live-alarm.com/assets/LiveAlarmLogo.svg",
+      "sizes": "128x128",
+      "type": "image/svg"
+    },
+    {
+      "src": "https://www.live-alarm.com/assets/LiveAlarmLogo.svg",
+      "sizes": "144x144",
+      "type": "image/svg"
+    },
+    {
+      "src": "https://www.live-alarm.com/assets/LiveAlarmLogo.svg",
+      "sizes": "152x152",
+      "type": "image/svg"
+    },
+    {
+      "src": "https://www.live-alarm.com/assets/LiveAlarmLogo.svg",
+      "sizes": "192x192",
+      "type": "image/svg"
+    },
+    {
+      "src": "https://www.live-alarm.com/assets/LiveAlarmLogo.svg",
+      "sizes": "384x384",
+      "type": "image/svg"
+    },
+    {
+      "src": "https://www.live-alarm.com/assets/LiveAlarmLogo.svg",
+      "sizes": "512x512",
+      "type": "image/svg"
+    }
+  ],
+  "prefer_related_applications": false,
+  "related_applications": []
+}
