@@ -4,11 +4,19 @@ import React, {useEffect, useState} from "react";
 
 let ProjectList = [
     {
-        title: "Vantage Tower (Kitchen & Data Center)",
-        owner: "Myint & Associate Co., Ltd",
-        system: "Wet Chem, NN100",
+        title: "129 Garmant Factory",
+        owner: "Salomon Myanmar Co., Ltd",
+        system: "SPK, HR, HYD, FA",
+        year: 2014,
+        photo: "/assets/GarmentFactory.jpg",
+        location:"Yangon"
+    },
+    {
+        title: "Jasmine Palace Hotel(21 STY)",
+        owner: "Jasmine Construction Co., Ltd",
+        system: "SPK, HR, HYD, FA",
         year: 2015,
-        photo: "/assets/vantage-tower.jpg",
+        photo: "/assets/JasminePalace.jpg",
         location:"Yangon"
     },
     {
@@ -20,59 +28,43 @@ let ProjectList = [
         location:"Yangon"
     },
     {
-        title: "Vantage Tower (Kitchen & Data Center)",
-        owner: "Myint & Associate Co., Ltd",
-        system: "Wet Chem, NN100",
+        title: "Yae Kyaw Market & Complex",
+        owner: "AMPS Construction Co., Ltd",
+        system: "SPK",
         year: 2015,
-        photo: "/assets/vantage-tower.jpg",
+        photo: "/assets/YaeKyawComplex.jpeg",
         location:"Yangon"
     },
     {
-        title: "Vantage Tower (Kitchen & Data Center)",
-        owner: "Myint & Associate Co., Ltd",
-        system: "Wet Chem, NN100",
-        year: 2015,
-        photo: "/assets/vantage-tower.jpg",
+        title: "Twin Centro Condo",
+        owner: "Shwe Taung Construction Co., Ltd",
+        system: "SPK, HR, HYD, FA",
+        year: 2016,
+        photo: "/assets/TwinCentroCondo.jpg",
         location:"Yangon"
     },
     {
-        title: "Vantage Tower (Kitchen & Data Center)",
-        owner: "Myint & Associate Co., Ltd",
-        system: "Wet Chem, NN100",
+        title: "SEDONA Hotel (Data Center)",
+        owner: "Sedona Hotel",
+        system: "FM200",
         year: 2015,
-        photo: "/assets/vantage-tower.jpg",
+        photo: "/assets/SedonaHotel.jpg",
+        location:"Mandalay"
+    },
+    {
+        title: "MTB Bank (Data Center)",
+        owner: "MTB Bank",
+        system: "FM200",
+        year: 2016,
+        photo: "/assets/MTB.jpg",
         location:"Yangon"
     },
     {
-        title: "Vantage Tower (Kitchen & Data Center)",
-        owner: "Myint & Associate Co., Ltd",
-        system: "Wet Chem, NN100",
-        year: 2015,
-        photo: "/assets/vantage-tower.jpg",
-        location:"Yangon"
-    },
-    {
-        title: "Vantage Tower (Kitchen & Data Center)",
-        owner: "Myint & Associate Co., Ltd",
-        system: "Wet Chem, NN100",
-        year: 2015,
-        photo: "/assets/vantage-tower.jpg",
-        location:"Yangon"
-    },
-    {
-        title: "Vantage Tower (Kitchen & Data Center)",
-        owner: "Myint & Associate Co., Ltd",
-        system: "Wet Chem, NN100",
-        year: 2015,
-        photo: "/assets/vantage-tower.jpg",
-        location:"Yangon"
-    },
-    {
-        title: "Vantage Tower (Kitchen & Data Center)",
-        owner: "Myint & Associate Co., Ltd",
-        system: "Wet Chem, NN100",
-        year: 2015,
-        photo: "/assets/vantage-tower.jpg",
+        title: "NESTLE Head Office (Data Center)",
+        owner: "Nestle",
+        system: "FM200",
+        year: 2016,
+        photo: "/assets/Nestle.jpg",
         location:"Yangon"
     },
     {
