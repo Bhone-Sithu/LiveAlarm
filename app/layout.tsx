@@ -81,7 +81,6 @@ export default function RootLayout({
       <html lang="en">
 
       <body className={inter.className}>
-      <div className="absolute w-screen h-screen top-0 left-0 bg-black opacity-50 z-0"></div>
       {children}</body>
       </html>
   );

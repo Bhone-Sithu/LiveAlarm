@@ -10,24 +10,24 @@ import Contact from "@/app/sections/Contact";
 export default function Home() {
   return (
       <>
+        <div className="absolute w-screen h-screen top-0 left-0 bg-black opacity-50 z-0"></div>
+        <main className="min-h-screen  z-10 relative" id={"landing"}>
+          <NavBar/>
 
-    <main className="min-h-screen  z-10 relative" id={"landing"}>
-      <NavBar/>
-
-        <Landing/>
-      <div className={"bg-white rounded-xl w-full z-30 relative py-5"} style={{marginTop: "100vh", height: "100%"}}>
-        <div className={"w-1 h-1"}></div>
-        <Title title={"About Us"}/>
-        <About/>
-        <Services/>
-        <div id={"projects"}></div>
-        <Title  title={"Projects"} />
-        <Projects />
-        <Contact/>
-        <p className={"text-center font-light font-xs"}>© 2024 LIVE ALARM ENGINEERING COMPANY LIMITED All Rights
-          Reserved</p>
-      </div>
-    </main>
+          <Landing/>
+          <div className={"bg-white rounded-xl w-full z-30 relative py-5"} style={{marginTop: "100vh", height: "100%"}}>
+            <div className={"w-1 h-1"}></div>
+            <Title title={"About Us"}/>
+            <About/>
+            <Services/>
+            <div id={"projects"}></div>
+            <Title title={"Projects"}/>
+            <Projects/>
+            <Contact/>
+            <p className={"text-center font-light font-xs"}>© 2024 LIVE ALARM ENGINEERING COMPANY LIMITED All Rights
+              Reserved</p>
+          </div>
+        </main>
       </>
   );
 }

@@ -21,7 +21,7 @@ export default function Contact() {
                         </p>
                     </div>
                     <p style={{color: "#FF0000", textShadow: "0px 2px 3px rgba(0, 0, 0, .75)"}}
-                       className={"ml-3 text-xl"}>Fire Protection System
+                       className={"ml-3 text-xl"}>Fire Protection System Solution
                     </p>
                 </div>
                 <div className="text-xl text-center md:text-left">

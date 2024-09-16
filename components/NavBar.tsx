@@ -25,11 +25,11 @@ export default function NavBar() {
     return (
         <nav
             className={`navbar navbar-expand-lg flex justify-between items-center fixed p-10 z-40 top-0 left-0 w-full transition-all duration-500 ${navBackground ? 'shadow-md p-5 bg-white' : ''}`}>
-            <div id={"logo"} className={"flex items-center justify-center "}>
+            <Link href={"/"} id={"logo"} className={"flex items-center justify-center "}>
                 <img src="/assets/LiveAlarmLogo.svg" alt="Logo" width={70} height={70}/>
                 <p style={{color: "#00FF0A", textShadow: "0px 2px 3px rgba(0, 0, 0, .75)"}}
                    className={"ml-3 text-xl"}>Live Alarm <br/><span style={{color: "#FAFF00"}}>Engineering</span></p>
-            </div>
+            </Link>
 
             {/* Hamburger Icon */}
             <div className="md:hidden">
@@ -46,7 +46,7 @@ export default function NavBar() {
             {/* Mobile Menu */}
             <div
                 className={`fixed inset-0 flex flex-col items-center justify-center bg-white text-black transition-transform transform duration-700 ${isMobileMenuOpen ? 'translate-x-0' : 'translate-x-full'} md:hidden`}>
-                <Link href={"#about"} onClick={toggleMobileMenu} className="p-4">About</Link>
+                <Link href={"/about"} onClick={toggleMobileMenu} className="p-4">About</Link>
                 <Link href={"#services"} onClick={toggleMobileMenu} className="p-4">Services</Link>
                 <Link href={"#projects"} onClick={toggleMobileMenu} className="p-4">Projects</Link>
                 <Link href={"#contact"} onClick={toggleMobileMenu} className="p-4">Contact</Link>
@@ -56,7 +56,7 @@ export default function NavBar() {
             <div id={"nav-links"}
                  className={`hidden md:flex justify-between w-6/12 text-xl ${navBackground ? 'text-black ' : 'text-gray-200'}`}>
 
-                <Link href={"#about"}>About</Link>
+                <Link href={"/about"}>About</Link>
                 <Link href={"#services"}>Services</Link>
                 <Link href={"#projects"}>Projects</Link>
                 <Link href={"#contact"}>Contact</Link>
