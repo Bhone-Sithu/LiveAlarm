@@ -9,6 +9,84 @@ import Image from "next/image";
 import Contact from "@/app/sections/Contact";
 
 export default function About(){
+    const personnel = [
+        {
+            name: "Zaw Lwin Cho",
+            position: "Project Manager",
+            education: "BE (Mech:)"
+        },
+        {
+            name: "Aye Thwin",
+            position: "Project Engineer",
+            education: "-"
+        },
+        {
+            name: "Ko Ko Naing",
+            position: "Project Engineer",
+            education: "AGTI (EP)"
+        },
+        {
+            name: "Khun Zaw Aung",
+            position: "Project Engineer",
+            education: "BE (Mech:)"
+        },
+        {
+            name: "Aung Thu",
+            position: "Welder/Fitter",
+            education: "-"
+        },
+        {
+            name: "Aung Ko Ko Oo",
+            position: "Welder/Fitter",
+            education: "-"
+        },
+        {
+            name: "Sithu Win",
+            position: "Welder/Fitter",
+            education: "-"
+        },
+        {
+            name: "Ye Thiha",
+            position: "Installer",
+            education: "-"
+        },
+        {
+            name: "Htwe Htwe Aung",
+            position: "Installer",
+            education: "-"
+        },
+        {
+            name: "Zin Phyoe Aung",
+            position: "Installer",
+            education: "-"
+        },
+        {
+            name: "Khant Wai Phyoe Thu",
+            position: "Installer",
+            education: "-"
+        },
+        {
+            name: "Kyaw Zay Tun",
+            position: "Installer",
+            education: "-"
+        },
+        {
+            name: "Zarni Myo Aung",
+            position: "Installer",
+            education: "-"
+        },
+        {
+            name: "Myo Min Oo",
+            position: "Installer",
+            education: "-"
+        },
+        {
+            name: "Paizay Myo Aung",
+            position: "Installer",
+            education: "-"
+        },
+    ];
+
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
     const toggleMobileMenu = () => {
@@ -197,78 +275,14 @@ export default function About(){
                     </tr>
                     </thead>
                     <tbody>
-                    <tr>
-                        <td className="border border-gray-300 px-4 py-2">1</td>
-                        <td className="border border-gray-300 px-4 py-2">Zaw Lwin Cho</td>
-                        <td className="border border-gray-300 px-4 py-2">Project Manager</td>
-                        <td className="border border-gray-300 px-4 py-2">BE (Mech:)</td>
-                    </tr>
-                    <tr>
-                        <td className="border border-gray-300 px-4 py-2">2</td>
-                        <td className="border border-gray-300 px-4 py-2">Ko Ko Naing</td>
-                        <td className="border border-gray-300 px-4 py-2">Project Engineer</td>
-                        <td className="border border-gray-300 px-4 py-2">AGTI (EP)</td>
-                    </tr>
-                    <tr>
-                        <td className="border border-gray-300 px-4 py-2">3</td>
-                        <td className="border border-gray-300 px-4 py-2">Khun Zaw Aung</td>
-                        <td className="border border-gray-300 px-4 py-2">Project Engineer</td>
-                        <td className="border border-gray-300 px-4 py-2">BE (Mech:)</td>
-                    </tr>
-                    <tr>
-                        <td className="border border-gray-300 px-4 py-2">4</td>
-                        <td className="border border-gray-300 px-4 py-2">Aung Thu</td>
-                        <td className="border border-gray-300 px-4 py-2">Welder/Fitter</td>
-                        <td className="border border-gray-300 px-4 py-2">-</td>
-                    </tr>
-                    <tr>
-                        <td className="border border-gray-300 px-4 py-2">5</td>
-                        <td className="border border-gray-300 px-4 py-2">Aung Ko Ko Oo</td>
-                        <td className="border border-gray-300 px-4 py-2">Welder/Fitter</td>
-                        <td className="border border-gray-300 px-4 py-2">-</td>
-                    </tr>
-                    <tr>
-                        <td className="border border-gray-300 px-4 py-2">6</td>
-                        <td className="border border-gray-300 px-4 py-2">Sithu Win</td>
-                        <td className="border border-gray-300 px-4 py-2">Welder/Fitter</td>
-                        <td className="border border-gray-300 px-4 py-2">-</td>
-                    </tr>
-                    <tr>
-                        <td className="border border-gray-300 px-4 py-2">7</td>
-                        <td className="border border-gray-300 px-4 py-2">Ye Thiha</td>
-                        <td className="border border-gray-300 px-4 py-2">Installer</td>
-                        <td className="border border-gray-300 px-4 py-2">-</td>
-                    </tr>
-                    <tr>
-                        <td className="border border-gray-300 px-4 py-2">8</td>
-                        <td className="border border-gray-300 px-4 py-2">Htwe Htwe Aung</td>
-                        <td className="border border-gray-300 px-4 py-2">Installer</td>
-                        <td className="border border-gray-300 px-4 py-2">-</td>
-                    </tr>
-                    <tr>
-                        <td className="border border-gray-300 px-4 py-2">9</td>
-                        <td className="border border-gray-300 px-4 py-2">Zin Phyoe Aung</td>
-                        <td className="border border-gray-300 px-4 py-2">Installer</td>
-                        <td className="border border-gray-300 px-4 py-2">-</td>
-                    </tr>
-                    <tr>
-                        <td className="border border-gray-300 px-4 py-2">10</td>
-                        <td className="border border-gray-300 px-4 py-2">Khant Wai Phyoe Thu</td>
-                        <td className="border border-gray-300 px-4 py-2">Installer</td>
-                        <td className="border border-gray-300 px-4 py-2">-</td>
-                    </tr>
-                    <tr>
-                        <td className="border border-gray-300 px-4 py-2">11</td>
-                        <td className="border border-gray-300 px-4 py-2">Kyaw Zay Tun</td>
-                        <td className="border border-gray-300 px-4 py-2">Installer</td>
-                        <td className="border border-gray-300 px-4 py-2">-</td>
-                    </tr>
-                    <tr>
-                        <td className="border border-gray-300 px-4 py-2">12</td>
-                        <td className="border border-gray-300 px-4 py-2">Zarni Myo Aung</td>
-                        <td className="border border-gray-300 px-4 py-2">Installer</td>
-                        <td className="border border-gray-300 px-4 py-2">-</td>
-                    </tr>
+                    {personnel.map((person,index)=>(
+                        <tr key={index}>
+                            <td className="border border-gray-300 px-4 py-2">{index+1}</td>
+                            <td className="border border-gray-300 px-4 py-2">{person.name}</td>
+                            <td className="border border-gray-300 px-4 py-2">{person.position}</td>
+                            <td className="border border-gray-300 px-4 py-2">{person.education}</td>
+                        </tr>
+                    ))}
                     </tbody>
                 </table>
 
